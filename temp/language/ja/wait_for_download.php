@@ -8,7 +8,7 @@
     header("Location: /?error=stocks");
   }
   $captcha=$_GET['g-recaptcha-response'];
-  $secretKey = "6LehzvEUAAAAALMMbXFLHGip8InIbr4d0am9-mYT";
+  $secretKey = "";
   $ip = $_SERVER['REMOTE_ADDR'];
   $url = 'https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey .  '&response=' . $captcha . '&remoteip=' . $ip;
   $response = file_get_contents($url);
