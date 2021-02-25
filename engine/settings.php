@@ -4,14 +4,9 @@ $url = 'http://www.mysqlgenerator.pw/';
 $path = 'todow/';
 //database
 $host = 'localhost';
-$user = 'n65331_dbuser';
-$password = 'ut^<y^6unRolBmd1';
-$database = 'n65331_db';
+$user = '';
+$password = '';
+$database = '';
 $feedback_db = 'feed_back';
 $message_db = 'messages';
-
-$database_json = '_db_github/feedback.json';
-//feedback
-$email = "worked_by_pekaby@outlook.com";
-$email_conf_settings = "worked_by_pekaby@outlook.com";
 ?>
