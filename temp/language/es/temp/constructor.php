@@ -50,7 +50,7 @@ tmpheader('constructor.css');
     <?}?>
     <br>
     <div class="capcha">
-      <div class="g-recaptcha" data-sitekey="6LehzvEUAAAAAIZjO-bRE0-61JICcTyDR2r2BLOJ"></div>
+      <div class="g-recaptcha" data-sitekey=""></div>
     </div>
     <?
     if (isset($_COOKIE['UNID']) && isset($_COOKIE['SSID']) && isset($_COOKIE['pswd'])) {?>
@@ -69,49 +69,11 @@ tmpheader('constructor.css');
     <button type="submit" name="start_singl" class="btn">Generar!</button>
             </form>
             <div class="ad_block">
-                <!-- Yandex.RTB R-A-571623-5 -->
-<div id="yandex_rtb_R-A-571623-5"></div>
-<script type="text/javascript">
-    (function(w, d, n, s, t) {
-        w[n] = w[n] || [];
-        w[n].push(function() {
-            Ya.Context.AdvManager.render({
-                blockId: "R-A-571623-5",
-                renderTo: "yandex_rtb_R-A-571623-5",
-                async: true
-            });
-        });
-        t = d.getElementsByTagName("script")[0];
-        s = d.createElement("script");
-        s.type = "text/javascript";
-        s.src = "//an.yandex.ru/system/context.js";
-        s.async = true;
-        t.parentNode.insertBefore(s, t);
-    })(this, this.document, "yandexContextAsyncCallbacks");
-</script>
+              
             </div>
         </div>
         <div class="block_ad_fbk">
-            <!-- Yandex.RTB R-A-571623-9 -->
-<div id="yandex_rtb_R-A-571623-9"></div>
-<script type="text/javascript">
-    (function(w, d, n, s, t) {
-        w[n] = w[n] || [];
-        w[n].push(function() {
-            Ya.Context.AdvManager.render({
-                blockId: "R-A-571623-9",
-                renderTo: "yandex_rtb_R-A-571623-9",
-                async: true
-            });
-        });
-        t = d.getElementsByTagName("script")[0];
-        s = d.createElement("script");
-        s.type = "text/javascript";
-        s.src = "//an.yandex.ru/system/context.js";
-        s.async = true;
-        t.parentNode.insertBefore(s, t);
-    })(this, this.document, "yandexContextAsyncCallbacks");
-</script>
+           
         </div>
         <div class="block_feedback">
     <h1 class="fbk">Dar opinion</h1>
